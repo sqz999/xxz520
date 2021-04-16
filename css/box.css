@@ -24,14 +24,17 @@ body {
     font-size: 3vh;
 }
 
-.line{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 70vw;
+.answer{
+    height: 7vh;
+    width: 25vw;
+    font-size: 2vh;
+    border-radius: 1vh;
+    text-align: center;
+    border: 1px solid #fae428;
+    color: #fae428;
 }
 
-.answer{
+.answer1{
     height: 7vh;
     width: 25vw;
     font-size: 2vh;
