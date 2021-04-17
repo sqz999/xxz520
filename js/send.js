@@ -82,7 +82,10 @@ reload = (key) => {
         return
     }
     ans.forEach((e) => {
-        if (e.innerText !== "undefined") {
+        if (e.innerText && e.innerText !== "undefined"
+            && e.innerText !== ''
+            && e.innerText !== undefined
+            && e.innerText !== null) {
             e.style = ""
         } else {
             e.style = "opacity: 0"
@@ -95,9 +98,9 @@ reload = (key) => {
         .from(ask, 0.8, {
             opacity: 0
         })
-        .from(ans, 0.8, {
+        .staggerFrom(ans, 0.8, {
             opacity: 0,
-        })
+        }, 0.5)
         .call(() => isRun = 0)
 }
 
