@@ -1,0 +1,33 @@
+{
+    "load": {
+        "2019": [
+            {"date":"2019-05","L":"故事的开始\n猫遇见了居","R":"一切的开始\n居遇见了猫"},
+            {"date":"2019-06","L":"短暂的见面","R":"异或是深刻的影响"}
+        ],
+        "2020": [
+            {"date":"2020-02","L":"深夜不眠的话语","R":"隔离时唯一的快乐"},
+            {"date":"2020-06-01","L":"一个小小的儿童节玩具","R":"一颗跳动的心"},
+            {"date":"2020-07-11","L":"猫和居在一起了","R":"居和猫在一起了"}
+        ],
+        "2021": [
+            {"date":"2021-03","L":"雨夜乌镇，小小的猫","R":"一个难忘的周末"},
+            {"date":"2021-05","L":"猫去了居的故乡","R":"当了一个不合格导游"},
+            {"date":"2021-07","L":"猫猫去了北京","R":"居想念着猫猫"}
+        ]
+    },
+    "process": {
+        "leaveDate":"2021-07-26 10:00:00",
+        "comeDate":null,
+        "processList":[
+            {"code":"A1","textStart":"遥望而思恋了","textEnd":"秒","percentRatio":100},
+            {"code":"A2","textStart":"我们","textEnd":"天，没有见了","percentRatio":100,"color":"#d9534f"},
+            {"code":"B2","textStart":"同城了","textEnd":"秒","percentRatio":100},
+            {"code":"B2","textStart":"我们连续","textEnd":"天，在一起","percentRatio":100,"color":"#d9534f"},
+
+            {"code":"C1","textStart":"这一分钟想你的第","textEnd":"秒","color":"burlywood"},
+            {"code":"C2","textStart":"这一天想你的第","textEnd":"分钟","color":"#f0ad4e"},
+            {"code":"C3","textStart":"这个月想你了","textEnd":"天","color":"#5cb85c"},
+            {"code":"C4","textStart":"今年想你了","textEnd":"月","color":"chocolate"}
+        ] 
+    }
+}
