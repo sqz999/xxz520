@@ -16,9 +16,12 @@
         ]
     },
     "process": {
+        "firstDate":"2020-07-11",
         "leaveDate":"2021-07-26 10:00:00",
         "comeDate":null,
         "processList":[
+            {"code":"00","textStart":"我们在一起了","textEnd":"天","percentRatio":50,"color":"#fb7299"},
+
             {"code":"A1","textStart":"遥望而思恋了","textEnd":"秒","percentRatio":100},
             {"code":"A2","textStart":"我们","textEnd":"天，没有见了","percentRatio":100,"color":"#d9534f"},
             {"code":"B2","textStart":"同城了","textEnd":"秒","percentRatio":100},
